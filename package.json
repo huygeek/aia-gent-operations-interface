@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "deploy-theme": "node scripts/deploy-theme.js",
+    "theme:local": "pnpm dlx shadcn@latest add ./public/themes/custom-theme.json"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
